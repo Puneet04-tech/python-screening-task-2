@@ -1,5 +1,46 @@
-# python-screening-task-2
-Enhanced Student-Friendly Debugging Guide
+### python-screening-task-2
+## Setup Instructions
+Follow these steps to prepare a clean Python debugging environment:
+
+Install Python
+
+Install Python 3.10+ from the official website or package manager.
+
+During installation, ensure “Add Python to PATH” is selected on Windows.
+
+Create a virtual environment
+
+macOS/Linux: python3 -m venv venv
+
+Windows: py -m venv venv
+
+Activate the environment
+
+macOS/Linux: source venv/bin/activate
+
+Windows (PowerShell): .\venv\Scripts\Activate
+
+Install helpful tools
+
+Linters/formatters: pip install ruff black
+
+Type checking: pip install mypy
+
+Debugging support (optional): pip install ipdb
+
+Verify versions
+
+python --version
+
+pip list
+
+Editor configuration
+
+Use VS Code or a similar editor with Python, Pylance, and Debugger extensions enabled.
+
+Turn on “Format on Save” and linting in editor settings.
+
+## Enhanced Student-Friendly Debugging Guide
 Main Takeaway:
 Developing strong debugging skills is about understanding underlying concepts, asking the right questions, and experimenting thoughtfully. This guide breaks down how to spot issues in your Python code, reflect on them, and build confidence in resolving them—without handing you the answer directly.
 
